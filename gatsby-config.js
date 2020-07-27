@@ -308,14 +308,6 @@ module.exports = {
                     name
                     color
                   }
-                  collaborators(first: 50,affiliation: DIRECT) {
-                    edges {
-                      node {
-                        name
-                        login
-                      }
-                    }
-                  }
                 }
               }
             }

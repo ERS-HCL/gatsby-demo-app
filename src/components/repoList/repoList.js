@@ -120,10 +120,10 @@ class RepoList extends React.Component {
         Header: 'Repository',
         accessor: 'name', //d => d.name
       },
-      {
+      /*       {
         Header: 'Authors',
         accessor: 'contributors', // String-based value accessors!
-      },
+      }, */
       {
         id: 'LanguageName',
         Header: 'Language',
@@ -209,10 +209,12 @@ class RepoList extends React.Component {
         name: repo.node.name,
         forkCount: repo.node.forkCount,
         stars: repo.node.stargazers.totalCount,
-        contributors:
+        // TODO: contributors disabled as it requires extra github permissions to view
+        // disabled for now
+        /*  contributors: '',
           repo.node.collaborators !== null
             ? getContributors(repo.node.collaborators.edges)
-            : '',
+            : '',*/
         language: getPrimaryLanguage(repo.node.primaryLanguage),
         pushedAt: repo.node.pushedAt,
         createdAt: repo.node.createdAt,

@@ -38,7 +38,7 @@
     "gatsby-remark-responsive-iframe": "^2.1.1",
     "gatsby-remark-smartypants": "^2.0.9",
     "gatsby-source-filesystem": "^2.0.35",
-    "gatsby-source-github-api": "0.1.0",
+    "gatsby-source-github-api": "0.1.1",
     "gatsby-transformer-excel": "^2.1.11",
     "gatsby-transformer-json": "^2.1.11",
     "gatsby-transformer-sharp": "^2.1.19",

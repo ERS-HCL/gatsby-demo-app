@@ -75,14 +75,6 @@ export const query = graphql`
                         }
                       }
                     }
-                    collaborators {
-                      edges {
-                        node {
-                          name
-                          login
-                        }
-                      }
-                    }
                     stargazers {
                       totalCount
                     }
