@@ -11,14 +11,13 @@ module.exports = {
     `gatsby-plugin-postcss`,
     `gatsby-plugin-react-helmet`,
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          {
-            family: `Montserrat`,
-          },
+          `Montserrat`
         ],
-      },
+        display: 'swap'
+      }
     },
     {
       resolve: `gatsby-source-filesystem`,
