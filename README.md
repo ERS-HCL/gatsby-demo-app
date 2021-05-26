@@ -1,3 +1,5 @@
+** This project is deprecated **
+
 # gatsby-ershcl-app
 
 [![Build Status](https://travis-ci.org/ERS-HCL/gatsby-ershcl-app.svg?branch=master)](https://travis-ci.org/ERS-HCL/gatsby-ershcl-app)
